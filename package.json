@@ -1,0 +1,27 @@
+{
+  "name": "forkin-around",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZachAH/Forkin-Around.git"
+  },
+  "author": "zachary howell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZachAH/Forkin-Around/issues"
+  },
+  "homepage": "https://github.com/ZachAH/Forkin-Around#readme",
+  "dependencies": {
+    "parcel": "*",
+    "sass": "^1.35.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2"
+  }
+}
